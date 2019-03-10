@@ -1,0 +1,39 @@
+body {
+font-family: sans-serif;}
+
+.task-one {
+	display: flex;
+	height : 200px;
+	width : 1300px;
+	background-color: aqua;
+	justify-content: center;
+	align-items: baseline;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	
+}
+
+.wrapper div {
+	height : 70px;
+	width : 150px;
+	background-color : blue;
+	margin : 5px;
+	color : white;
+}
+
+
+.vosem{
+	flex-grow: 7;
+	width : 70px;
+	
+}
+
+.one {
+  background-color : red  !important;
+}
+
+.nine{
+	width : 140px;
+	flex-grow: 8;
+	background-color : red  !important;
+}	

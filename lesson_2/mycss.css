@@ -1,0 +1,36 @@
+body {
+font-family: sans-serif;}
+
+.task-one {
+	display: flex;
+	height : 500px;
+	width : 1000px;
+	background-color: aqua;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	
+	
+	
+}
+
+.wrapper div {
+	height : 70px;
+	width : 175px;
+	background-color : blue;
+	margin : 5px;
+	color : white;
+}
+
+.one { 
+align-self: flex-end;
+}
+
+.three {
+	align-self: flex-start;
+}
+
+.five {
+	align-self: flex-end;
+}

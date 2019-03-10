@@ -1,0 +1,32 @@
+body {
+font-family: sans-serif;}
+
+.task-one {
+	display: flex;
+	height : 450px;
+	background-color: aqua;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	align-content: center;
+	
+}
+
+.wrapper div {
+	height : 120px;
+	width : 370px;
+	background-color : blue;
+	margin : 10px;
+	color : white;
+}
+
+
+
+.three{
+	flex-basis: 200px;
+	flex-grow: 3;
+}
+
+
+
